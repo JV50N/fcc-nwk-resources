@@ -1,0 +1,31 @@
+html :
+
+
+
+
+
+
+css:
+    http://animista.net/
+    https://coding-artist.teachable.com/p/how-to-make-pure-css-images
+    https://hackerthemes.com/bootstrap-cheatsheet/ bootstrap cheatsheet
+
+
+
+
+
+
+js:
+
+
+
+
+other:
+    https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.ktmm4js1n
+    https://skillcrush.com/2014/10/10/sites-finding-remote-work/
+
+
+fullstack github repo :
+        https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer/
+
+
