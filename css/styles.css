@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 /* Space out content a bit */
 body {
   /*padding-top: 20px;
@@ -7,6 +8,7 @@ body {
 }
 * {
     color: white;
+    font-family: 'Source Code Pro', monospace; 
 }
 a {
     color: inherit;
