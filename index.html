@@ -9,6 +9,7 @@
     <title>freeCodeCamp Newark NJ Resource Archives</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/57d2213aed.js"></script>
   </head>
   <body>
     
@@ -27,16 +28,14 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about"></a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>  Home</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Front End</li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">JavaScript</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Back End</li>
                 <li><a href="#">Separated link</a></li>
@@ -50,46 +49,57 @@
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">Search <i class="fa fa-search" aria-hidden="true"></i></button>
       </form>
           </ul>
        </div><!--/.nav-collapse -->
        
       </div>
     </nav>
-    <div class="bg1 container">
+    <div class="bg1 shadow container">
       
 
       <div class="row content">
-        <p>Looking for more resources! Please fork this and add what you can to this! or just contact either AnnMarie or Jason so we can add onto this! <br>
-        Happy coding!</p>
+        <h4>Looking for more resources! Please <a href="https://github.com/JGonc189/fcc-nwk-resources"><button class="btn btn-default">fork <i class="fa fa-code-fork fa-lg" aria-hidden="true"></i></button></a>  
+ and add what you can to this! <br> 
+        Happy coding!</h4>
           </div>
 
       <div class="row content">
         <h2>Front End Information</h2>
         <div class="col-lg-12">
           <h3 id="html">HTML</h3>
-          <p>anything and everything about HTML</p>
-          <p>This is just filler, will add more tomorrow</p>
-          
+          <ul>
+            <li>Here's a good cheat sheet for HTML5, it has all the tags used in HTML5 courtesy of <a href="http://www.websitesetup.org">websitesetup.org</a> <a href="assets/HTML5-cheat-sheet.pdf"><button class="btn pdf-btn">view PDF</button></a></li>          
         </div>
+        <hr>
 
         <div class="col-lg-12">
           <h3 id="css">CSS</h3>
-          <p>Anything and Everything about CSS</p>
+                 <p></p>
           <ul>
+              <li>Here's a good cheat sheet for CSS that has the new CSS3 tags, again from <a href="http://www.websitesetup.org">websitesetup.org</a>  <a href="assets/wsu-css-cheat-sheet.pdf"><button class="btn pdf-btn">view PDF</button></a></li>
               <li><a href="http://animista.net/">animista.net</a> - A place where you can play with ready made CSS animations</li>
               <li><a href="https://hackerthemes.com/bootstrap-cheatsheet/">Bootstrap Cheatsheet</a></li>
+              
           </ul>
           
         </div>
         <div class="col-lg-12">
           <h3 id="js">JavaScript</h3>
-          <p>Anything and Everything about JavaScript</p>
-          <p>This is just filler, will add more tomorrow</p>
+          <ul>
+            <li><a href="https://github.com/getify/You-Dont-Know-JS">YDKJS (You Don't Know JavaScript) - Possibly one of the best free JS books out right now.</a></li>
+            <li><a href="http://eloquentjavascript.net/">Eloquent JavaScript - Another good book, I personally haven't read this.</a></li>
+            <li><a href="https://www.watchandcode.com">Watch and Code, this is a pretty good place to start if you're new to JavaScript</a></li>
+            <li><a href="https://www.javascript30.com">JavaScript 30 - 30 vanilla JS projects in 30 days</a></li>
           
         </div>
-        <h2>Back End Information</h2>
+        <div class="col-lg-12">
+          <br>
+          <hr> 
+          <h2>Back End Information</h2>
+          <h4>I dont have much info on the backend, so if anyone can share some info that would be great.</h4>
+        </div>
         <div class="col-lg-12">
           <h3 id="php">PHP</h3>
           <p>Anything and Everything about PHP</p>
@@ -97,15 +107,22 @@
           
         </div>
         <div class="col-lg-12">
-          <h3 id="Ruby">Ruby</h3>
+          <h3 id="ruby">Ruby</h3>
           <p>Anything and Everything about Ruby</p>
+          <p>This is just filler, will add more tomorrow</p>
+          
+        </div>
+        <div class="col-lg-12">
+          <h3 id="node">Node.js</h3>
+          <p>Anything and Everything about Node.js</p>
           <p>This is just filler, will add more tomorrow</p>
           
         </div>
       </div>
 
       <footer class="footer">
-        <p>&copy; 2017 freeCodeCamp Resource Archives</p>
+        <p><a href="https://github.com/JGonc189/fcc-nwk-resources"><i class="fa fa-github-alt fa-3x social-icons" aria-hidden="true"></i></a>  <a href="https://www.facebook.com/groups/free.code.camp.newark/"><i class="fa fa-facebook-square fa-3x social-icons" aria-hidden="true"></i></a>  <a href="https://www.freecodecamp.com"><i class="fa fa-free-code-camp fa-3x social-icons" aria-hidden="true"></i></a></p>
+        <p>&copy; 2017 freeCodeCamp Newark Resource Archives</p>
       </footer>
 
     </div> <!-- /container -->
